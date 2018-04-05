@@ -1,0 +1,29 @@
+.background    { background: rgb(135, 206, 250);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 0, 0) }
+.wall          { background: rgb(204, 102, 255) }
+.floater       { background: rgb(255,215,0); }
+
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); }
+.coin   {
+          background-image: url("https://mobilegamegraphics.com/wp-content/uploads/2015/06/coin1.gif");
+          background-size: 17px 17px;
+        }
+.emerald { background: rgb(0, 204, 0) }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
